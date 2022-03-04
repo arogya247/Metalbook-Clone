@@ -403,3 +403,57 @@ header{
 .section9{
     margin: 100px 20vw;
 }
+
+.section10{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.section10 h4{
+    width: 50vw;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.small-line-10{
+    width: 10vw;
+    height: 2px;
+    background-color: #c21625;
+    margin: 1em auto;
+}
+
+.section11{
+    margin: 5% 10vw;
+}
+
+.test-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+.test-item{
+    height: 20vw;
+    border: 1px solid #c21625;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30px;
+    border: 1px solid white;
+    box-shadow: 5px 1px 5px #888888;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.test-item:hover{
+    transform: scale(1.05);
+}
+
+.test-item span{
+    color: #c21625;
+    font-weight: 500;
+    font-size: 1.1em;
+}
